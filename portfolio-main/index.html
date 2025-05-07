@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <!-- Bootstrap 5 CSS CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+
+<!-- NAVBAR (Bootstrap Responsive) -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">MyPortfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#certifications">Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HOME SECTION -->
+<section id="home" class="home-section">
+  <div class="home-container">
+    <div class="home-image">
+      <img src="img.jpg" alt="Profile Picture">
+    </div>
+    <div class="home-content">
+      
+      <h1>I AM <span class="typing"></span></h1>
+      <p>Passionate Learner  Future Frontend & Software Developer!</p>
+      <p>Highly motivated and adaptable person and a strong foundation in web development 
+        technology. Eager to leverage skills in HTML,CSS,JavaScript,React JS,python,Django and SQL to create engaging user experiences. Looking 
+        for an entry-level position to grow and contribute to a dynamic development team. </p>
+     
+    </div>
+  </div>
+</section>
+
+
+<!-- ABOUT SECTION -->
+ 
+<section id="about" class="about-section">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-description">
+      As I have a strong track record of delivering innovative and efficient solutions for various 
+      projects. I have successfully designed, developed, and implemented software applications that have 
+      resulted in significant improvements in efficiency and productivity. My biggest achievement has 
+      been developing a web-based application that increased customer engagement by 40%. My best 
+      qualities include my attention to detail, problem-solving skills, and ability to work collaboratively 
+      with cross-functional teams. I possess excellent skills in programming languages such as 
+      JavaScript, and Python, as well as proficiency in database management systems. With my strong 
+      technical expertise and passion for software development, I am confident in my ability to make 
+      valuable contributions to any organization. 
+    </p>
+
+    <div class="skills-section">
+      <h3>Skills Highlights</h3>
+
+      <div class="skill">
+        <span>React</span>
+        <div class="skill-bar"><div class="skill-fill" style="width: 75%;">90%</div></div>
+      </div>
+
+      <div class="skill">
+        <span>Django</span>
+        <div class="skill-bar"><div class="skill-fill" style="width: 80%;">85%</div></div>
+      </div>
+
+      <div class="skill">
+        <span>SQL Database</span>
+        <div class="skill-bar"><div class="skill-fill" style="width: 75%;">80%</div></div>
+      </div>
+
+      <div class="skill">
+        <span>Python</span>
+        <div class="skill-bar"><div class="skill-fill" style="width: 75%;">85%</div></div>
+      </div>
+
+      <div class="skill">
+        <span>HTML / CSS / JavaScript</span>
+        <div class="skill-bar"><div class="skill-fill" style="width: 95%;">90%</div></div>
+      </div>
+    </div>
+    
+    <h3 class="resume-title" id="resume">Resume</h3>
+    <p class="resume-description">Click the buttons below to view or download my resume.</p>
+  
+    <!-- Resume buttons side by side -->
+    <div class="resume-buttons">
+      <a href="resume.pdf" class="btn-view-resume">
+        <i class="fa fa-eye"></i> View Resume
+      </a>
+      <a href="resume.pdf" download class="btn-download-resume">
+        <i class="fa fa-download"></i> Download Resume
+      </a>
+    </div>
+    
+  </div>
+</section>
+
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="section skills-section">
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-category">
+      <h3><i class="fas fa-code"></i> Frontend Technologies</h3>
+      <ul>
+        <li><i class="fab fa-html5"></i> HTML</li>
+        <li><i class="fab fa-css3-alt"></i> CSS</li>
+        <li><i class="fab fa-js-square"></i> JavaScript</li>
+        <li><i class="fab fa-react"></i> React.js</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3><i class="fas fa-server"></i> Backend Technologies</h3>
+      <ul>
+        <li><i class="fab fa-node-js"></i> Node.js</li>
+        <li><i class="fas fa-network-wired"></i> Express.js</li>
+        <li><i class="fas fa-database"></i> MongoDB</li>
+        <li><i class="fas fa-database"></i> MySQL</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3><i class="fas fa-laptop"></i>Full Stack Development</h3>
+      <ul>
+        <li><i class="fas fa-globe"></i> Web Development</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+      <ul>
+        <li><i class="fab fa-python"></i> Python</li>
+        <li><i class="fas fa-c"></i> C</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS SECTION -->
+ <section id="certifications" class="section certifications-section">
+  <h2>Certifications</h2>
+
+  <div class="certifications-grid">
+    <div class="cert-card">
+      <img src="img1.png" alt="Certification 1">
+      <h3><i class="fas fa-award"></i> Web Development</h3>
+      <p>Completed a Web development course including HTML, CSS,JavaScript,React.js,Node.js,Express.js,MongoDB and MySQ.L</p>
+      <div class="cert-buttons">
+        <a href="cert1.pdf" class="cert-btn">View Certificate</a>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <img src="img2.jpg" alt="Certification 2">
+      <h3><i class="fas fa-award"></i> Mobile App Development </h3>
+      <p>Completed the workshop and built an Mobile app using Fulutter.</p>
+      <div class="cert-buttons">
+        <a href="cert2.pdf.jpg" class="cert-btn">View Certificate</a>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <img src="img3.jpg" alt="Certification 3">
+      <h3><i class="fas fa-award"></i> Python Programming</h3>
+      <p>Certified in basics of Python programming.</p>
+      <div class="cert-buttons">
+        <a href="cert3.pdf.jpg" class="cert-btn">View Certificate</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- PROJECTS SECTION -->
+
+<section id="projects" class="projects-section">
+  <h2 class="section-title">Projects</h2>
+  
+  <div class="projects-container">
+
+    <div class="project-card ">
+      <img src="proj1.png" alt="Project 1 Screenshot">
+      <h3>BANK LOCKER MANAGEMENT SYSTEM PROJECT - PHP</h3>
+      <p><strong>Goal:</strong>Centralize community issue reporting and feedback to improve public service efficiency.<br>
+         <strong>Technologies:</strong>HTML, CSS, JavaScript, MySQL<br>
+         <strong>Challenges:</strong> Designing an intuitive interface and handling real-time updates.<br>
+         <strong>Solution:</strong> Built a responsive platform with and seamless feedback flow.
+      </p>
+      <a href="https://github.com/Shanthi-2003/BLMS" target="_blank" class="btn">View Code</a>
+    </div>
+
+    <div class="project-card ">
+      <img src="proj2.png" alt="Project 2 Screenshot">
+      <h3>Pesticides of Agriculture - Angular</h3>
+      <p><strong>Goal:</strong> Suggest suitable pesticides based on crop and soil data for farmers.<br>
+         <strong>Technologies:</strong> Angular, TypeScript, HTML, CSS<br>
+         <strong>Challenges:</strong> Matching crop data accurately with pesticide information.<br>
+         <strong>Solution:</strong> Built an app to analyze crop data and recommend pesticide quantities with responsive forms and real-time insights.
+      </p>
+      <a href="https://github.com/chandanapriyabadina/portfolio" target="_blank" class="btn">View Code</a>
+    </div>
+
+    <div class="project-card ">
+      <img src="proj3.png" alt="Project 3 Screenshot">
+      <h3>Video Suggestion Generator - API</h3>
+      <p><strong>Goal:</strong> Video Generator and Topic suggestion.Powed by YouTube API and open AI <br>
+         <strong>Technologies:</strong> HTML, CSS, JavaScript, Python, Nix<br>
+         <strong>Challenges:</strong> <br>
+         <strong>Solution:</strong> creating the YouTube video and Topic suggestion using open API. 
+      </p>
+      <a href="https://github.com/Shanthi-2003/VideoSuggestionGenerator" target="_blank" class="btn">View Code</a>
+    </div>
+
+    <!-- Add more projects as needed -->
+
+  </div>
+</section>
+
+<!-- CONTACT PAGE SECTION -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="text-center">Get in Touch</h2>
+    <p class="text-center mb-4">Feel free to reach out through the form below or connect with me on social media.</p>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form action="#" method="post" class="p-4 bg-white rounded shadow-sm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-control" placeholder="Enter subject" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" name="message" rows="5" class="form-control" placeholder="Your message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn w-100">Send Message</button>
+        </form>
+
+        <!-- Social Icons Below Form -->
+        <div class="text-center mt-4">
+          <p>Connect with me:</p>
+          <a href="https://www.facebook.com/" target="_blank" class="me-3 text-decoration-none text-dark fs-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank" class="me-3 text-decoration-none text-dark fs-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="me-3 text-decoration-none text-dark fs-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/chandanapriya-badina-827b97276/" target="_blank" class="text-decoration-none text-dark fs-4">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="mt-5 py-3 bg-dark text-white text-center">
+  <p class="mb-0">&copy; 2025 My Portfolio | Chandana Priya. All rights reserved.</p>
+</footer>
+
+<!-- SCRIPT for Typing Animation -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed('.typing', {
+    strings: ["CHANDANA PRIYA BADINA"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: true
+  });
+</script>
+<!-- Bootstrap 5 JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
